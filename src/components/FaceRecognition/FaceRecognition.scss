@@ -1,0 +1,19 @@
+.image {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    border-radius: 20px;
+    width: 400px;
+    height: 40%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  img {
+    width: 90%;
+    height: 90%;
+  }
+}
